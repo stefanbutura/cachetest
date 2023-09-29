@@ -1,0 +1,9 @@
+uuid: 32e8afa9-5302-419b-beda-3319095bb6ba
+langcode: en
+status: true
+dependencies: {  }
+id: party_representative
+label: 'Party representative'
+weight: -8
+is_admin: null
+permissions: {  }

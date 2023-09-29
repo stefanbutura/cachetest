@@ -1,0 +1,12 @@
+ivory.admin_config_ivory:
+  title: Ivory Stockpile Database Configuration
+  route_name: ivory.admin_config_ivory
+  parent: system.admin_config
+  description: 'Manage the Ivory Stockpile Database settings'
+  weight: -100
+
+ivory.import_settings:
+  title: 'Data Import Settings'
+  route_name: ivory.import_settings
+  description: 'Manage data import settings'
+  parent: ivory.admin_config_ivory

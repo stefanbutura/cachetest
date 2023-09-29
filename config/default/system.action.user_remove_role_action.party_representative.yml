@@ -1,0 +1,14 @@
+uuid: d0fc1e21-258a-4a01-b9f9-6e16fb08e4ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.party_representative
+  module:
+    - user
+id: user_remove_role_action.party_representative
+label: 'Remove the Party representative role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: party_representative

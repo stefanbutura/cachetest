@@ -1,0 +1,17 @@
+ivory.admin_config_ivory:
+  path: '/admin/config/ivory'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Ivory Stockpile Database settings'
+  requirements:
+    _permission: 'access administration pages'
+
+ivory.import_settings:
+  path: '/admin/config/ivory/import'
+  defaults:
+    _form: 'Drupal\ivory\Form\DataImportConfigForm'
+    _title: 'Data Import Settings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

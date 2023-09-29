@@ -1,0 +1,14 @@
+uuid: 4540c2e2-c369-40d4-a1ed-0d69348e1995
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.party_representative
+  module:
+    - user
+id: user_add_role_action.party_representative
+label: 'Add the Party representative role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: party_representative
