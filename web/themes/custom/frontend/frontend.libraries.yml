@@ -1,0 +1,22 @@
+# Libraries for the configuration the Eau de Web Theme theme.
+global-styling:
+  css:
+    theme:
+      css/fonts.css: {}
+      css/vars.css: {}
+      css/general.css: {}
+      css/dark-mode.css: {}
+      css/header.css: { }
+      css/footer.css: { }
+  js:
+    js/script.js: {}
+
+node--teaser:
+  css:
+    component:
+      css/components/content/node--teaser.css: {}
+
+slick:
+  css:
+    component:
+      css/components/slick/slick.css: {}
