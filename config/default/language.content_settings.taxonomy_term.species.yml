@@ -1,0 +1,16 @@
+uuid: d8ef105b-6088-4a9d-b54a-c084f5f0782f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.species
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: taxonomy_term.species
+target_entity_type_id: taxonomy_term
+target_bundle: species
+default_langcode: site_default
+language_alterable: false
