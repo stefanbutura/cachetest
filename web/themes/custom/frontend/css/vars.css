@@ -1,5 +1,5 @@
 :root {
-  --body-font-family: 'Open Sans';
+  --body-font-family: 'Archivo', sans-serif;
   --body-font-size: 1.125rem;
   --body-color: #050505;
   --body-bg: #fff;
@@ -31,7 +31,7 @@
   --hr-opacity: 0.25;
 
   --headings-margin-bottom: .5rem;
-  --headings-font-family: 'Source Sans Pro';
+  --headings-font-family: 'Yanone Kaffeesatz', sans-serif;
   --headings-font-style: null;
   --headings-font-weight: 700;
   --headings-line-height: 1.2;
