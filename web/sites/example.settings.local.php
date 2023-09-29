@@ -138,12 +138,12 @@ $settings['file_private_path'] = realpath($app_root . '/../private');
 
 # Project trusted host pattern
 $settings['trusted_host_patterns'] = [
-  '^example\.localhost',
+  '^ivory\.local',
 ];
 
 /** Customize to your local configuration */
 $databases['default']['default'] = array (
-  'database' => 'drupal',
+  'database' => 'ivory',
   'username' => 'root',
   'password' => 'root',
   'prefix' => '',
@@ -169,7 +169,7 @@ $config['recaptcha.settings']['site_key'] = '';
 $config['recaptcha.settings']['secret_key'] = '';
 
 // Enable 2FA login on prod.
-$config['tfa.settings']['enabled'] = TRUE;
+$config['tfa.settings']['enabled'] = FALSE;
 // Generate with `dd if=/dev/urandom bs=32 count=1 | base64 -i`.
 $config['key.key.encryption_key']['key_provider_settings']['key_value'] = 'ZGlBTZCuMC65j3QVeq/CenbHjOaaFGT7nKsvkmW4Cw4=';
 

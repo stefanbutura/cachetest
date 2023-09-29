@@ -9,14 +9,8 @@ url:
     '': null
     fr: fr
     es: es
-    ar: ar
-    ru: ru
-    zh-hans: zh-hans
   domains:
     en: ''
     fr: ''
     es: ''
-    ar: ''
-    ru: ''
-    zh-hans: ''
 selected_langcode: site_default
