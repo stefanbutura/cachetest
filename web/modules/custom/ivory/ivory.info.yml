@@ -1,0 +1,6 @@
+name: Ivory Stockpile Database
+description: Custom functionality for the Ivory Stockpile Database website
+package: Ivory
+type: module
+configure: ivory.settings
+core_version_requirement: ^9.2 || ^10
