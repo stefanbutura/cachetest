@@ -99,3 +99,26 @@ header .nav-item:hover {
   padding: 0;
   overflow: hidden;
 }
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: var(--body-color);
+    font-size: 0.875rem;
+    display: inline-block;
+    white-space: normal;
+  }
+
+.navbar-brand .site-title {
+    margin-left: 0.9375rem;
+    margin-top: auto;
+    max-width: 6.25rem;
+    line-height: 1.1;
+  }
+
+.site-logo img {
+    max-width: 8.6875rem;
+  }

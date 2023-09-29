@@ -1,5 +1,5 @@
 .mt-auto{
-  background: forestgreen;
+  background: var(--c-primary);
   color:white;
   width: auto;
   padding: 3.75rem 0;
