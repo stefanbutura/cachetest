@@ -60,6 +60,7 @@
         "drupal/allowed_formats": "^1.5",
         "drupal/autologout": "^1.4",
         "drupal/backup_migrate": "^5.0",
+        "drupal/cache_control_override": "^2.0",
         "drupal/captcha": "^2.0@beta",
         "drupal/ckeditor5_paste_filter": "^1.0@alpha",
         "drupal/ckeditor_accordion": "^2.0",

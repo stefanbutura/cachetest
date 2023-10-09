@@ -10,6 +10,9 @@
     },
     "drupal/autologout": {
       "#3372010 - Warning: Undefined array key 1 in Drupal\\autologout\\EventSubscriber\\AutologoutSubscriber->onRequest()": "patches/autologout/34.diff"
+    },
+    "drupal/cache_control_override": {
+      "#2962699 - Expires header not set": "https://www.drupal.org/files/issues/2023-09-15/cache_control_override-expires_header-2962699-2-x.7.patch"
     }
   }
 }

@@ -4,3 +4,11 @@
  * @file
  * ivory.module
  */
+
+// Function ivory_preprocess_node(&$variables) {
+//  dump('dead page');
+//  die;
+// }
+// function ivory_node_presave() {
+//  Cache::invalidateTags(['node_list']);
+// }.
